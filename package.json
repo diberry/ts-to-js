@@ -1,0 +1,24 @@
+{
+  "name": "ts-to-js",
+  "version": "1.0.0",
+  "description": "Azure SDK for JS ts-to-js converter",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prebuild": "rimraf dist/",
+    "test": "echo Skipped."
+  },
+  "author": "Microsoft Corporation",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^8.1.0",
+    "prettier": "^1.19.1",
+    "typescript": "^3.7.4"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^8.0.1",
+    "@types/node": "^12.12.21",
+    "@types/prettier": "^1.19.0",
+    "rimraf": "^3.0.0"
+  }
+}
